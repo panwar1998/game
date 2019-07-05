@@ -1,0 +1,141 @@
+
+
+body{
+	background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #555;
+ 
+}
+#new-game{
+	position: fixed;
+	left: 43.8%;
+	padding-top: 3ex;
+
+}
+p{
+	text-align:;
+	font-size:24px;
+	letter-spacing: 1px;
+
+}
+.active { background-color: #f7f7f7;
+            width:48ex;
+            height: 67ex;
+          }
+
+.global{
+	background: white;
+	margin-top: 4ex;
+	margin-bottom: 0ex;
+	margin-left: 26ex;
+	margin-right:26ex;
+	height: 83ex;
+
+}
+.first-player {
+	padding-top: 16ex;
+	padding-left: 20ex;
+	float: left;
+
+}
+
+.second-player{
+	padding-top: 16ex;
+	padding-right: 20ex;
+	float: right;
+}
+#player-0{
+	font-size: 40px;
+	color:black;
+	 letter-spacing: 2px;
+}
+#player-1{
+	position: fixed;
+	left: 60%;
+	font-size: 40px;
+	color:black;
+	letter-spacing: 2px;
+
+}
+#dice{
+	width:15ex;
+	height: 15ex;
+	position: fixed;
+	margin-bottom: 50ex;
+	margin-top: 15ex;
+	left: 46%;
+}
+#final-score-0{
+	position: fixed;
+	left: 29.3%;
+	padding-top:0ex;
+	text-align: center;
+	font-size: 100px;
+	color: red;
+	 letter-spacing: 2px;
+}
+#final-score-1{
+	position: fixed;
+	left: 65.5%;
+	padding-top: 1ex;
+	text-align: center;
+	font-size: 100px;
+	color: red;
+	 letter-spacing: 2px;
+}
+#current-score-0{
+	position: fixed;
+	margin-left: 6ex;
+	top:64.5%;
+	background-color: red;
+	width: 16ex;
+	height:8ex;
+	text-align: center;
+	padding-top: 4ex;
+
+}
+span{
+	font-size: 28px;
+	padding-top:2ex;
+	color: white;
+}
+#current-score-1{
+	position: fixed;
+	left: 63%;
+	margin-top: 39.5ex;
+	background-color: red;
+	width: 16ex;
+	height:8ex;
+	text-align: center;
+	padding-top: 4ex;
+
+}
+#roll-dice{
+	text-align:center;
+	font-size: 20px;
+	position: fixed;
+	margin-top: 44ex;
+	margin-left:49ex;
+}
+#hold-dice{
+	margin-left:52ex;
+	text-align: center;
+	margin-top: 51ex;
+	font-size:20px;
+	position: fixed;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#current-0{
+	font-size: 30px;
+	color: white;
+}
+
+#current-1{
+	font-size: 30px;
+	color: white;
+}
